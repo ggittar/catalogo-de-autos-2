@@ -46,7 +46,7 @@
 
         // Si entramos es que todo se ha realizado correctamente
 
-       $link = mysqli_connect("localhost","root","ricardoputo");
+       $link = mysqli_connect("localhost","root","1234");
         mysqli_select_db($link,"autos");
 
        // insertaremos los datos en la base de datos de marcas de autos
@@ -92,7 +92,7 @@
 
         // Si entramos es que todo se ha realizado correctamente
 
-       $link = mysqli_connect("localhost","root","ricardoputo");
+       $link = mysqli_connect("localhost","root","1234");
         mysqli_select_db($link,"autos");
 
          
